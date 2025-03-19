@@ -49944,6 +49944,22 @@ nav {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.scroll-top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 1vw;
+  width: 2vw;
+  height: 2vw;
+  padding: 0.5vw;
+  background-color: rgb(253, 110, 29);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  font-weight: bold !important;
+  color: #F7FBFC;
+}
+
 @media (max-width: 428px) {
   nav {
     width: 90%;

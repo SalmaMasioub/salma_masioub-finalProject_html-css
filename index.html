@@ -21,17 +21,15 @@
 <body>
 
     <!-- navbar -->
-
     <header id="header"
         class="header d-flex align-items-center justify-content-center position-fixed bg-black bg-white w-100 z-3 pt-5 pb-3 ">
         <nav class="navmenu  d-flex align-items-center justify-content-between  rounded-5 py-2 px-3">
-            <div
-                class="header-container container d-flex align-items-center justify-content-between">
+            <div class="header-container container d-flex align-items-center justify-content-between">
                 <h1 class="sitename nav-link  text-title fs-2">EasyFolio</h1>
                 <input type="checkbox" id="nav-toggle" class="visually-hidden">
 
                 <div class="navigation d-flex flex-lg-row flex-column gap-5">
-                    <label for="nav-toggle" class="d-lg-none "> 
+                    <label for="nav-toggle" class="d-lg-none ">
                         <i class="bi bi-x-lg p d-lg-none "></i>
                     </label>
                     <a href="#home" class="active text-decoration-none text-black nav-link fs-5">Home</a>
@@ -39,21 +37,21 @@
                     <a href="" class="text-decoration-none text-black nav-link fs-5">Resume</a>
                     <a href="#portfolio" class="text-decoration-none text-black nav-link fs-5">Portfolio</a>
                     <a href="#services" class="text-decoration-none text-black nav-link fs-5">Services</a>
-                    <a class="nav-link dropdown-toggle nav-link fs-5" href="#" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item " href="#">Action</a></li>
-                    <li><a class="dropdown-item " href="#">Another action</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-                <a href="#contact" class="text-decoration-none text-black nav-link fs-5 ">Contact</a>
+                    <a class="nav-link dropdown-toggle nav-link fs-5" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="#">Action</a></li>
+                        <li><a class="dropdown-item " href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    <a href="#contact" class="text-decoration-none text-black nav-link fs-5 ">Contact</a>
                 </div>
-              
+
 
                 <div class="header-social-links d-flex align-items-center justify-content-center gap-3">
                     <a href="#" class="twitter"><i class="bi bi-twitter-x text-secondary fs-5"></i></a>
@@ -63,7 +61,7 @@
                 </div>
                 <label class="open-icon fw-bold text-secondary fs-3" for="nav-toggle">
                     <i class="mobile-nav-toggle d-xl-none bi bi-list" id="nav-toggle"></i>
-                
+
                 </label>
         </nav>
 
@@ -71,11 +69,6 @@
 
         </div>
     </header>
-
-
-
-
-
     <!-- home section -->
     <div id="Home" class="d-lg-flex  justify-content-center pt-30 gap-8 w-100 container  home_section  ">
         <div class="d-flex flex-column align-items-start justify-content-center gap-3 desc ">
@@ -110,7 +103,6 @@
             <img src="./public/images/profile-1.webp" alt="">
         </div>
     </div>
-
     <!-- about section -->
     <div id="about" class="d-flex flex-column align-items-center justify-content-center pt-10 bg-light  ">
         <div class="d-flex flex-column align-items-center justify-content-center pb-3">
@@ -238,7 +230,6 @@
             </div>
         </div>
     </div>
-
     <!-- portfolio -->
     <div id="Portfolio" class="d-flex flex-column align-items-center justify-content-center pt-10 bg-light pb-10 ">
         <div class="d-flex flex-column align-items-center justify-content-center pb-3 container">
@@ -254,37 +245,32 @@
             consequatur vel illum qui dolorem</p>
 
         <!-- tabs -->
-
         <div class="d-flex align-items-center justify-content-center gap-7 flex-wrap pb-10">
-
             <input class="click d-none" type="radio" id="tab1">
             <label for="tab1" class="fw-bold active">All Work</label>
-
             <input class="click d-none" type="radio" id="tab2">
             <label for="tab2" class="fw-bold">Web Design</label>
-
             <input class="click d-none" type="radio" id="tab3">
             <label for="tab3" class="fw-bold">Graphics</label>
-
             <input class="click d-none" type="radio" id="tab4">
             <label for="tab4" class="fw-bold">Motion</label>
-
             <input class="click d-none" type="radio" id="tab5">
             <label for="tab5" class="fw-bold">Brandig</label>
         </div>
         <!-- project -->
-
         <div class="service-cards">
             <div class="container">
                 <div
                     class="row gap-3 px-1 py-5  d-flex flex-lg-row flex-column align align-items-center justify-content-center content ">
-                    <div class="col child1">
+
+                    <div class="col" id="id1">
 
                         <div class=" zoom product_shadow bg-white rounded-5  " style="width: 100; ">
                             <div class="card-body d-flex flex-column align-items-start justify-content-center carta">
-                                <div class="product d-flex align-items-center justify-content-center">
+                                <div class="product d-flex flex-column align-items-center justify-content-center">
                                     <img src="./public/images/portfolio-1.webp" class="product_img rounded-top-5"
                                         alt="">
+                                    
                                 </div>
                                 <div class="d-flex flex-column align-items-start justify-content-start container">
                                     <h5 class="text-btn-back text-start pt-3 pb-1 h5_card ">Web Design</h5>
@@ -296,7 +282,7 @@
                         </div>
 
                     </div>
-                    <div class="col">
+                    <div class="col" id="id2">
                         <div class=" zoom product_shadow bg-white rounded-5 tab__content" style="width: 100; ">
                             <div class="card-body d-flex flex-column align-items-start justify-content-center">
                                 <div class="product d-flex align-items-center justify-content-center">
@@ -313,7 +299,7 @@
                         </div>
                     </div>
                     <div class="w-100 "></div>
-                    <div class="col">
+                    <div class="col" id="id3">
                         <div class=" zoom product_shadow bg-white rounded-5 " style="width: 100; ">
                             <div class="card-body d-flex flex-column align-items-start justify-content-center">
                                 <div class="product d-flex align-items-center justify-content-center">
@@ -329,7 +315,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" id="id4">
                         <div class=" zoom product_shadow bg-white rounded-5 " style="width: 100; ">
                             <div class="card-body d-flex flex-column align-items-start justify-content-center">
                                 <div class="product d-flex align-items-center justify-content-center">
@@ -346,7 +332,7 @@
                         </div>
                     </div>
                     <div class="w-100"></div>
-                    <div class="col">
+                    <div class="col" id="id5">
                         <div class=" zoom product_shadow bg-white rounded-5 " style="width: 100; ">
                             <div class="card-body d-flex flex-column align-items-start justify-content-center">
                                 <div class="product d-flex align-items-center justify-content-center">
@@ -362,7 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" id="id6">
                         <div class=" zoom product_shadow bg-white rounded-5 " style="width: 100; ">
                             <div class="card-body d-flex flex-column align-items-start justify-content-center">
                                 <div class="product d-flex align-items-center justify-content-center">
@@ -383,9 +369,6 @@
             </div>
         </div>
     </div>
-    
-    
-
     <!-- testmonial -->
     <div id="testmonial" class="d-flex flex-column align-items-center justify-content-center pt-10 bg-light pb-10 ">
         <div class="d-flex flex-column align-items-center justify-content-center pb-3">
@@ -515,7 +498,6 @@
             </button>
         </div>
     </div>
-
     <!-- services -->
     <div id="services" class="d-flex  flex-column align-items-center justify-content-center pt-10   ">
         <div class="d-flex flex-column align-items-center justify-content-center pb-3 container">
@@ -595,7 +577,6 @@
         </div>
 
     </div>
-
     <!-- Frequently Asked Questions -->
     <div id="FAQ" class="d-flex flex-column align-items-center justify-content-center pt-10  container ">
         <div class="d-flex flex-column align-items-center justify-content-center pb-3">
@@ -732,12 +713,7 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
-
     <!-- conatct -->
     <div class="contact_section pb-7" id="contact">
         <div class="contact_info ">
@@ -745,7 +721,6 @@
             <h2>Nemo enim ipsam voluptatem quia voluptas aspernatur</h2>
             <p class="hero">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
             </p>
-
             <!-- coordonnées -->
             <!-- email -->
             <div class="coordonnées">
@@ -755,7 +730,6 @@
                 <div class="email">
                     <p class="hero">info@example.com</p>
                 </div>
-
             </div>
             <!-- phone -->
             <div class="coordonnées">
@@ -765,7 +739,6 @@
                 <div class="email">
                     <p class="hero">+1 5589 55488 558</p>
                 </div>
-
             </div>
             <!-- localisation -->
             <div class="coordonnées">
@@ -784,12 +757,9 @@
                 <div class="cor-icon ">
                     <i class="bi bi-arrow-right arrow icon-contact"></i>
                 </div>
-
             </div>
         </div>
-
         <!-- contact form -->
-
         <div class="contact-form">
             <form action="">
                 <div class="inputs">
@@ -801,12 +771,9 @@
                 </div>
             </form>
         </div>
-
     </div>
-
     <!-- footer -->
     <footer id="footer" class="footer p-7 d-flex flex-column align-items-center justify-content-center">
-
         <div class="container">
             <div class="copyright text-center ">
                 <p>© <span>Copyright</span> <strong>EasyFolio</strong> <span>All Rights Reserved</span></p>
@@ -821,8 +788,13 @@
                 Designed by <a href="" class="text-btn-back">BootstrapMade</a>
             </div>
         </div>
-
     </footer>
+
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i></a>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

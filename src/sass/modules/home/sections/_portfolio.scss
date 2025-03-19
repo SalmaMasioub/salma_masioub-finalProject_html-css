@@ -6,9 +6,11 @@
     transition: background-color 0.3s;
   }
 
+ 
   label:hover {
     background-color: $tabs_hover;
     color: $btn-back;
+    
   }
 
   input:checked+label {
