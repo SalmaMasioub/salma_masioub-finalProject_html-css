@@ -22,6 +22,52 @@
 
     <!-- navbar -->
 
+    <header id="header"
+        class="header d-flex align-items-center justify-content-center position-fixed bg-black bg-white w-100 z-3 pt-5 pb-3 ">
+        <nav class="navmenu  d-flex align-items-center justify-content-between  rounded-5 py-2 px-3">
+            <div
+                class="header-container container d-flex align-items-center justify-content-between">
+                <h1 class="sitename nav-link  text-title fs-2">EasyFolio</h1>
+                <div class="navigation d-flex flex-lg-row flex-column gap-5">
+                    <a href="#home" class="active text-decoration-none text-black nav-link fs-5">Home</a>
+                    <a href="#about" class="text-decoration-none text-black nav-link fs-5">About</a>
+                    <a href="" class="text-decoration-none text-black nav-link fs-5">Resume</a>
+                    <a href="#portfolio" class="text-decoration-none text-black nav-link fs-5">Portfolio</a>
+                    <a href="#services" class="text-decoration-none text-black nav-link fs-5">Services</a>
+                    <a class="nav-link dropdown-toggle nav-link fs-5" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item " href="#">Action</a></li>
+                    <li><a class="dropdown-item " href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                <a href="#contact" class="text-decoration-none text-black nav-link fs-5 ">Contact</a>
+                </div>
+              
+
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+                <div class="header-social-links d-flex align-items-center justify-content-center gap-3">
+                    <a href="#" class="twitter"><i class="bi bi-twitter-x text-secondary fs-5"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook text-secondary fs-5 "></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram text-secondary fs-5"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin text-secondary fs-5"></i></a>
+                </div>
+        </nav>
+
+
+
+        </div>
+    </header>
+
+
+
+
 
     <!-- home section -->
     <div id="Home" class="d-lg-flex  justify-content-center pt-30 gap-8 w-100 container  home_section  ">
@@ -53,7 +99,7 @@
             </div>
         </div>
         <!-- hero image -->
-        <div class="d-flex align-items-center justify-content-center hero_pic  ">
+        <div class="d-flex align-items-center justify-content-center hero_pic  " id="home">
             <img src="./public/images/profile-1.webp" alt="">
         </div>
     </div>
@@ -185,8 +231,6 @@
             </div>
         </div>
     </div>
-
-
 
     <!-- portfolio -->
     <div id="Portfolio" class="d-flex flex-column align-items-center justify-content-center pt-10 bg-light pb-10 ">
@@ -335,7 +379,6 @@
     </div>
     </div>
 
-
     <!-- testmonial -->
     <div id="testmonial" class="d-flex flex-column align-items-center justify-content-center pt-10 bg-light pb-10 ">
         <div class="d-flex flex-column align-items-center justify-content-center pb-3">
@@ -455,7 +498,7 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
@@ -467,7 +510,7 @@
     </div>
 
     <!-- services -->
-   <div id="services" class="d-flex  flex-column align-items-center justify-content-center pt-10   ">
+    <div id="services" class="d-flex  flex-column align-items-center justify-content-center pt-10   ">
         <div class="d-flex flex-column align-items-center justify-content-center pb-3 container">
             <h1 class="text-sec-title">Services</h1>
             <svg class="text-btn-back fw-light w-25 " viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
@@ -545,7 +588,6 @@
         </div>
 
     </div>
-
 
     <!-- Frequently Asked Questions -->
     <div id="FAQ" class="d-flex flex-column align-items-center justify-content-center pt-10  container ">
@@ -686,11 +728,11 @@
 
 
 
-        
+
     </div>
 
     <!-- conatct -->
-    <div class="contact_section pb-7">
+    <div class="contact_section pb-7" id="contact">
         <div class="contact_info ">
             <h5 class="cntct">Contact</h5>
             <h2>Nemo enim ipsam voluptatem quia voluptas aspernatur</h2>
@@ -701,7 +743,7 @@
             <!-- email -->
             <div class="coordonnées">
                 <div class="cor-icon">
-                    <i class="bi bi-envelope-at"></i>
+                    <i class="bi bi-envelope-at icon-contact"></i>
                 </div>
                 <div class="email">
                     <p class="hero">info@example.com</p>
@@ -711,7 +753,7 @@
             <!-- phone -->
             <div class="coordonnées">
                 <div class="cor-icon">
-                    <i class="bi bi-telephone"></i>
+                    <i class="bi bi-telephone icon-contact"></i>
                 </div>
                 <div class="email">
                     <p class="hero">+1 5589 55488 558</p>
@@ -721,7 +763,7 @@
             <!-- localisation -->
             <div class="coordonnées">
                 <div class="cor-icon">
-                    <i class="bi bi-geo-alt"></i>
+                    <i class="bi bi-geo-alt icon-contact"></i>
                 </div>
                 <div class="email">
                     <p class="hero">A108 Adam Street, New York, NY 535022</p>
@@ -733,7 +775,7 @@
                     <p class="hero">Open Map</p>
                 </div>
                 <div class="cor-icon ">
-                    <i class="bi bi-arrow-right arrow"></i>
+                    <i class="bi bi-arrow-right arrow icon-contact"></i>
                 </div>
 
             </div>
@@ -754,25 +796,26 @@
         </div>
 
     </div>
+
     <!-- footer -->
     <footer id="footer" class="footer p-7 d-flex flex-column align-items-center justify-content-center">
 
         <div class="container">
-          <div class="copyright text-center ">
-            <p>© <span>Copyright</span> <strong>EasyFolio</strong> <span>All Rights Reserved</span></p>
-          </div>
-          <div class="social-links d-flex justify-content-center gap-3 pt-3">
-            <a href=""><i class="bi bi-twitter-x text-secondary fs-4"></i></a>
-            <a href=""><i class="bi bi-facebook text-secondary fs-4"></i></a>
-            <a href=""><i class="bi bi-instagram text-secondary fs-4"></i></a>
-            <a href=""><i class="bi bi-linkedin text-secondary fs-4"></i></a>
-          </div>
-          <div class="credits d-flex align-items-center justify-content-center pt-3">
-            Designed by <a href="" class="text-btn-back">BootstrapMade</a>
-          </div>
+            <div class="copyright text-center ">
+                <p>© <span>Copyright</span> <strong>EasyFolio</strong> <span>All Rights Reserved</span></p>
+            </div>
+            <div class="social-links d-flex justify-content-center gap-3 pt-3">
+                <a href=""><i class="bi bi-twitter-x text-secondary fs-4"></i></a>
+                <a href=""><i class="bi bi-facebook text-secondary fs-4"></i></a>
+                <a href=""><i class="bi bi-instagram text-secondary fs-4"></i></a>
+                <a href=""><i class="bi bi-linkedin text-secondary fs-4"></i></a>
+            </div>
+            <div class="credits d-flex align-items-center justify-content-center pt-3">
+                Designed by <a href="" class="text-btn-back">BootstrapMade</a>
+            </div>
         </div>
-    
-      </footer>
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

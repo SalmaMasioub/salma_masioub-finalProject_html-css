@@ -38,17 +38,17 @@
     align-items: center;
     justify-content: center;
     gap: 1vw;
-.cor-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+// .cor-icon{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-    i{
+    .icon-contact{
         font-weight: bold;
         font-size: 2rem;
         color: $btn-back;
     }
-}
+
 
    .email{
   
@@ -83,15 +83,18 @@ margin-bottom: 0;
         border: 0.5px solid  rgba(132, 130, 133, 0.336);
         width: 100%;
         border-radius: $xs_radius;
-
     }
+
+
     textarea{
         padding-left:1vw ;
         padding-bottom: 25vh;
         border: 0.5px solid  rgba(132, 130, 133, 0.336);
         border-radius: $xs_radius;
-
     }
+
+
+    
 
     ::placeholder{
         font-family: questrial;

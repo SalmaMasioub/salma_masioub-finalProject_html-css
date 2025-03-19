@@ -49926,6 +49926,24 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.nav-link {
+  font-family: questrial;
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  color: rgb(253, 110, 29) !important;
+}
+
+.sitename:hover {
+  color: rgb(0, 42, 67) !important;
+}
+
+nav {
+  width: 80%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 .hero_buttons button {
   padding: 2vh 2vw !important;
 }
@@ -50146,12 +50164,7 @@ h2, .h2 {
   justify-content: center;
   gap: 1vw;
 }
-.coordonnées .cor-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.coordonnées .cor-icon i {
+.coordonnées .icon-contact {
   font-weight: bold;
   font-size: 2rem;
   color: rgb(253, 110, 29);
