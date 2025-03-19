@@ -49944,6 +49944,24 @@ nav {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+@media (max-width: 428px) {
+  nav {
+    width: 90%;
+  }
+  .navigation {
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 10vh;
+    left: -200%;
+    background: white !important;
+  }
+  #nav-toggle:checked ~ .navigation {
+    left: 0vw;
+  }
+}
 .hero_buttons button {
   padding: 2vh 2vw !important;
 }
