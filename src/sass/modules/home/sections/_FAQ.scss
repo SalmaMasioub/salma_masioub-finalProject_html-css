@@ -1,0 +1,27 @@
+
+.accordion-item {
+    box-shadow: none !important;
+    border: 1px solid #a19b9b3b;
+}
+
+.accordion-button:hover {
+    color: $btn-back; 
+}
+
+.accordion-button:not(.collapsed) {
+    color: $btn-back; 
+    background-color: $tabs_hover;
+    border: 2px solid $btn-back; 
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accord{
+    font-family: questrial;
+    font-size: $s_font_res;
+    color: $title;
+    font-weight: bold;
+}
+

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.p_about{
+    width: 50%;
+    text-align: center;
+   
+}
+.about-img {
+    width: 50%;
+
+    img {
+        width: 90%;
+        border-radius: $radius;
+    }
+}
+
+.about-info {
+    width: 50%;
+    p{
+        font-size: $para_font ;
+    }
+}
+
+
+h2 {
+    font-family: questrial;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.info-perso {
+    border-radius: $radius;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.signature-image{
+    width: 40%;
+}
+.img-signature{
+width: 100%;
+}
+
+
+.progress-bar{
+    background-color: $btn-back;
+   
+  
+}
+
+
+.card{
+    border-radius: $radius;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    border: none;
+
+}
+
+.zoom{
+    transition: transform .1s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    border: none;
+
+
+}
+.zoom:hover {
+    transform: scale(1.05);
+  }
+
+
+@media (max-width: 428px){
+    .about-info {
+        width: 100%;
+        h2{
+            font-size: $m_font_res;
+        }
+        p{
+            font-size: $small_font !important;
+        }
+    }
+    .about-img{
+        width: 100%;
+    }
+
+    .info-perso{
+        width: 100%;
+        h5{
+            font-size: $s_font_res;
+        }
+
+    }
+    .signature-image{
+        width: 100%;
+    }
+    .p_about{
+        width: 100%;
+    }
+    
+    .h2{
+        font-size: $m_font_res;
+    }
+}

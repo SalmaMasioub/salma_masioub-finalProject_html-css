@@ -1,0 +1,74 @@
+.hero_buttons{
+    button{
+        padding: 2vh 2vw !important;
+    }
+    button:hover{
+        background-color: rgb(248, 141, 79) !important;
+    }
+    .lets{
+        border: 1px solid $btn-back;
+    }
+
+    .lets:hover{
+        background-color: $btn-back !important;
+        color: white !important;
+    }
+}
+
+h1{
+    font-family: questrial ;
+font-size: 3.5rem !important;
+font-weight: bold;
+
+}
+ .desc{
+    width: 50%;  
+ }
+
+ .hero{
+    font-family: roboto;
+  font-size: 20px;
+    font-weight: 300;
+} 
+
+.hero_pic{
+    
+    width: 50%;
+   
+   img{
+    width: 100%;
+   }
+}
+
+@media (max-width: 428px) {
+.hero_section{
+    flex-direction: column !important;
+}
+
+.desc{
+   width: 100%;
+   text-align: center;
+}
+.hero_buttons{
+    flex-direction: column;
+    gap: 3vw !important;
+    width: 100%;
+    button{
+        width: 100%;
+    }
+}
+.hero_pic{
+    width: 100%;
+    .img{
+        width: 85vw !important;
+    }
+}
+
+
+.us{
+justify-content: center !important;
+align-items: center !important;
+text-align: center !important;
+width: 100%;
+}
+}

@@ -1,0 +1,34 @@
+
+.comment{
+width: 55%;
+}
+
+.person{
+width: 45%;
+img{
+    width: 90%;
+    border-radius: $radius;
+}
+}
+
+
+
+
+
+
+@media (max-width: 428px){
+
+  .person{
+    display: none;
+  }
+    .comment{
+      
+        width: 100% !important;
+        }
+
+        .crou-item{
+            h2{
+                width: 100%;
+            }
+        }
+}

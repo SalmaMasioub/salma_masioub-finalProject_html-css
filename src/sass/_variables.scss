@@ -1,0 +1,36 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$s_font_res:15px;
+$m_font_res:30px;
+$small_font:16px;
+$title_font: 30px;
+$para_font: 20px;
+$para_w: 300;
+$radius:20px;
+$radius_s: 50%;
+$xs_radius : 15px;
+$btn-back: rgb(253, 110, 29);
+$tabs_hover:rgba(236, 107, 32, 0.356);
+$sec-title: rgb(143, 80, 55);
+$title: rgb(0, 42, 67);
+$para: rgb(143, 146, 149);
+$colors: (
+    "title": $title , 
+    "para": $para ,
+    "btn-back":$btn-back,
+    "sec-title":$sec-title,
+
+);
+$theme-colors: map-merge($colors , $theme-colors);
+
+
+
+
+
+
+$spacer : 1vh;
+
+@for $i from 1 through 100 {
+  $spacers: map-merge($spacers, ($i : $spacer * $i) );
+} 

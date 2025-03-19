@@ -1,0 +1,49 @@
+
+ 
+  label {
+    padding: 1.5vh 2vw;
+    border-radius: $radius;
+    transition: background-color 0.3s;
+  }
+
+  label:hover {
+    background-color: $tabs_hover;
+    color: $btn-back;
+  }
+
+  input:checked+label {
+    background-color: $btn-back;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+.product_img{
+    width: 100%;
+    
+}
+.h5_card{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 20px !important;
+}
+.p-card{
+    text-align: start;
+    font-family: questrial;
+    font-size: $s_font_res;
+   
+}
+
+.product_shadow{
+    transition: transform 0.3s ease;
+}
+.product_shadow:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: translateY(-15px);
+    
+}
